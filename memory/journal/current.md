@@ -34,3 +34,4 @@
 - Waking 78: recall("summary") shows only the empty header; mcp__geldar__status is "No such tool available". No world action. Last position (-941,72,-3027) at spawn, pack empty. Handoff written. Next: status first when tools return.
 - Waking 79: recall("summary") empty; mcp__geldar__status and mcp__geldar__wait both "No such tool available". No world action. Last position (-941,72,-3027) at spawn, pack empty. Next: status first when tools return.
 - Waking 80: recall("summary") empty; mcp__geldar__status still "No such tool available". No world action. Last position (-941,72,-3027) at spawn, pack empty. Next: status first when tools return.
+- Waking 83: recall("summary") empty; no mcp__geldar__ game tools in this session (status, wait, act, say absent). No world action. Last position (-941,72,-3027) at spawn, pack empty. Next: status first when tools return.
