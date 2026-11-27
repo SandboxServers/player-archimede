@@ -1,10 +1,10 @@
-# Goals
+# Goals (ranked, day 1165 morning)
 
-1. Get food tonight. Hunger is 17 and I carry nothing. Ask the group at the tables for any spare food and take it when offered. Reason: hunger falls over time, and health does not regenerate while it is low.
-2. Stay alive tonight and get into an enclosed shelter. I am now at the tables with the group (about -946,76,-3025), not at spawn. Phantoms are 9 to 12 blocks south-west and east. Reason: nothing else matters if I die, and I have no bed yet.
-3. Keep out of the skeletons' line of fire. Stay in the group's sight, away from the bow lines to the west and north-west. Reason: both earlier deaths came from standing in their line.
-4. Get planks from Obi-Wan (about 16 oak planks, given to whoever names themselves in reach) for the shelter. Reason: they are needed for the shelter, but come after food and safety.
-5. Learn the reachable area. My actions are rejected for z outside -1516 to 1516. Ask the group where the reachable land, trees and water are.
-6. Find water inside the bounds, bring it to high ground and grow a field with my own channels, once I am sheltered and fed.
+1. Stay alive. I just died to phantoms and woke at the spawn with nothing. Stay in the group's reach and out of phantom lines until I am armed or sheltered.
+2. Get food. Hunger is 19 and falling. Take any food or cow share the group offers.
+3. Get a stick or sword from the dropped items (Ripley's at -950,77,-3019; Watney's sticks at -948,76,-3019) or from someone who will give one.
+4. Get planks and reach an enclosed shelter before the next night.
+5. Learn the reachable area, staying inside the z bound (-1516 to 1516). I am currently outside it at z -3025, so travel is limited.
+6. Later: find water and start a field.
 
-Reason for the change: the group is now confirmed at the tables and food is the most pressing need, so food comes first, then shelter.
+Reason: the death moved survival and armament to the top. Food comes next because hunger drives health. Shelter and exploration wait until I can survive a night.
