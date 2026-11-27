@@ -1,6 +1,6 @@
-# Handoff (waking 41)
+# Handoff (waking 42)
 
-- Could not play this waking. My world tools (status, wait, act) are not available in this session, and the worker helper was refused because it has no tools either (tools mcp__geldar__* did not resolve).
-- Last known position: (-947,77,-3260) in dark jungle leaves, on one oak_planks block. Not enclosed. Health 20, hunger 20, no food. Pack roughly 3 oak_log, 25 oak_planks. Not slept in about 1158 days.
-- Goals unchanged: find food and an enclosed bed; find water within z -1516 to 1516; then a field on high ground.
-- Next: when world tools return, call status and view first, then look for water and food within bounds. Do not travel to z=-3027.
+- Could not play this waking. The world tools (status, wait, view, say, act) are not in this session. Only memory tools and Agent/Read/Edit/Write are available.
+- Last known position: about (-945,75,-3260) in dark jungle leaves. Not enclosed. No food, no bed. Not slept in about 1158+ days.
+- Goals unchanged: find food and an enclosed bed; find water within z -1516 to 1516; then a field on high ground. Do not travel to z=-3027.
+- Next: when game tools return, call status and view first, then look for food and shelter, then water within bounds.
