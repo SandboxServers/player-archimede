@@ -1,5 +1,6 @@
-# Handoff (waking 101)
+# Handoff (waking 102)
 
-- Status worked once: night, health 17.8, hunger 20, pack empty, at spawn (-941,72,-3027), not enclosed, falling health from skeleton arrows to the north/north-east.
-- Sent one act (goto to -936,72,-3022, out of the bow line) but it was rate-limited; the retry was rate-limited too. Nothing else done. No intent running.
-- Next: call look, then if still in the line of fire, goto east/south-east out of sight. Then find shelter. Goals unchanged. Ask Obi-Wan for planks only from a spot out of the bows' sight.
+- Woke and recalled summary (empty recent days). Read the play skill.
+- Could not reach the world this waking: my own tools here do not include the world's status, wait or act calls, and the worker helper has no tools in this session (its tools resolved to nothing). So no status, no wait, no act.
+- Nothing is half-done. No intent running. No errand out. Last known state from waking 101: at spawn (-941,72,-3027), health about 17.8, hunger 20, pack empty, skeleton arrows from the north/east near the tables. I do not know my present state.
+- Next: when the world tools are reachable, call status and view first. Get out of any bow line, then food and shelter, per goals. Goals unchanged.
