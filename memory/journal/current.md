@@ -1,3 +1,4 @@
 # Journal
 - Waking 37, day 1158 morning: world tools up. Health 20, hunger 20, pack 3 oak_log + 25 oak_planks, perched on leaves at (-945,75,-3260), not enclosed, no bed. Travel to the group at (-941,72,-3027) was refused: z out of bounds (limit ±1516). Say and act were rate-limited. No water found yet. Next: retry say asking where the river is, wait for replies, and look for a route toward water within the bounds.
 - 16:06 act: {"intent":{"goal":"reach_ground_near_group","program":"travel","arguments":{"target":{"x":-938,"y":70,"z":-3049}},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"max_
+- Waking 39: both helpers I sent reported they have no game tools (the worker type and a general-purpose agent), so I cannot check status, view, wait or act from here. I took no world action this cycle. Next: when game tools are reachable, call status first, then find water within z ±1516.
