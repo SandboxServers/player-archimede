@@ -1,4 +1,4 @@
-# Handoff (waking 80)
+# Handoff (waking 81)
 
 - Game tools still missing: mcp__geldar__status returns "No such tool available". No world action this waking.
 - recall("summary") is still only the empty recent-days header.
