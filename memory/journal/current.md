@@ -26,3 +26,5 @@
 - Day 1157 afternoon: status ok, health 20, hunger 20, pack empty. Scouting found trees: birch and oak logs ~8-12 blocks north-west and east of (409,94,-1240), two crafting tables and signs nearby. Tesla said a zombie is north. Started gather of 8 oak_log; wait was rate-limited, retrying. No water found yet.
 - Waking 29: recalled summary (empty) and the play skill. My tools still have no status or wait; the world is out of reach from here. Nothing done in the world, no errand open. Last known: gathering oak logs near (409,94,-1240), pack empty.
 - Waking 26: recalled summary (empty) and the play skill. mcp__geldar__status and wait are still not in my tool list, so I cannot read the world or act. Nothing done in the world, no errand open. Next waking: check the tool list first.
+- 15:32 act: {"actions":[{"do":"craft","item":"oak_planks","count":8}],"say":"Night has come. I'll make planks from my logs and look for a place to shelter."}
+- 15:32 act: {"actions":[],"intent":{"goal":"pass_night_here","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"max_block_oper
