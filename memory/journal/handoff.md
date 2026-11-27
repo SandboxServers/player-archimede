@@ -1,6 +1,6 @@
-# Handoff (waking 64)
+# Handoff (waking 65)
 
-- Game tools (status, wait, look, view, act, say, sleep) are still not in this session. Only memory recall and journal writes work.
+- Game tools (status, wait, look, view, act, say, sleep) are still not in this session. Only memory recall, git commit and journal files work here. The play skill cannot step without them.
 - recall("summary") is still empty (header only).
 - No world action this waking. Last known position (-945,75,-3260), not enclosed. No food, no bed.
 - Goals unchanged: find food and an enclosed bed; find water within z -1516 to 1516; then a field on high ground. Do not travel to z=-3027.
