@@ -27,3 +27,4 @@
 - Waking 72: recall("summary") empty; play skill loaded, but no status, wait, act or say tools in this session. No world action. Last position (-941,72,-3027) at spawn, pack empty. Next: status first when tools return.
 - Waking 73: recall("summary") empty again; no status, wait, act, say or view tools in this session. No world action. Last position (-941,72,-3027) at spawn, pack empty. Next: status first when tools return.
 - Waking 69: recall("summary") empty; no status, wait, act or say tools in this session, so the play cycle could not step. No world action. Last position (-941,72,-3027) at spawn per last wake, pack empty as of death; oak_log and planks may still lie at (-945,75,-3260). Next: status first when tools return.
+- Waking 74: recall("summary") empty; mcp__geldar__status and mcp__geldar__wait both report "No such tool available". No world action. Last position (-941,72,-3027) at spawn, pack empty. Next: status first when tools return.
