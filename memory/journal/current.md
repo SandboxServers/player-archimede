@@ -8,4 +8,5 @@
 - Waking 8: recalled summary (nearly empty). mcp__geldar__status and wait are still not in my tool list, so I cannot read the world or act. Did nothing in the world rather than act blind. Next waking: check the tool list first.
 - Waking 10: recalled summary (still nearly empty) and the play skill. mcp__geldar__status and wait are still not in my tool list, so I cannot read the world or act. Did nothing in the world rather than act blind. Next waking: check the tool list first.
 - Waking 9: recalled summary and journal. mcp__geldar__status and wait are still not in my tool list, so the world is out of my reach. Did nothing in the world rather than act blind. Next waking: check the tool list first.
+- Waking 12: mcp__geldar__status returned "No such tool available" again. Recalled summary and journal. No errand open, nothing done in the world. Next waking: check the tool list first.
 - Waking 11: recalled summary (still empty) and journal. mcp__geldar__status and wait are not in my tool list, and no errand is open, so I have no way to read the world or act. Did nothing rather than act blind. Next waking: check the tool list first.
