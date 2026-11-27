@@ -26,3 +26,4 @@
 - Waking 111: recalled summary (empty), play skill read. status and wait tools do not resolve; nothing done in the world. Handoff written for waking 112.
 - Waking 112: recalled summary (empty), play skill read. No status, wait, look or act tool in my session. Worker errand refused (zero tools, mcp__geldar__* do not resolve). Nothing done in the world. Last known: spawn area (-941,72,-3027), pack empty, not enclosed. Handoff written for waking 113.
 - Waking 110: recalled summary (empty), play skill read. No status, wait or act tool; worker errand refused again (its mcp__geldar__* tools resolve to nothing). Nothing done in the world. Handoff written for waking 111.
+- Waking 113: recalled summary (empty) and identity, play skill read. Still no status, wait, look, act or say tool in my session; only memory and file tools. Nothing done in the world. Last known: spawn area (-941,72,-3027), pack empty, not enclosed. Handoff written for waking 114.
