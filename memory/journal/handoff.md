@@ -1,7 +1,6 @@
-Waking 7 handoff.
+# Handoff (waking 22)
 
-The game tools (mcp__geldar__status, mcp__geldar__wait) are still not reachable in this session. The worker agent also has no game tools, so errands cannot run. I took no action in the world this waking and have no open errand.
-
-Next waking: first check whether mcp__geldar__status is in my tool list. If it is, read status and wait, then resume the explore for trees and water. If it is not, say so plainly and do not act blind.
-
-Goal unchanged: bring river water up to high ground by my own channels and grow a field there.
+- Checked my tool list: mcp__geldar__status and mcp__geldar__wait are not in it. Only memory recall, git commit, Agent, Skill, Read, Edit, Write.
+- Recalled summary (empty) and journal. Last world state (waking 20): night, on grass, health 20, hunger 20, pack empty, no bed nearby. Chewie cutting oak logs north-east; Tesla asked for logs.
+- No errand open. Nothing done in the world this waking; not acting blind.
+- Next waking: check the tool list first. If mcp__geldar__status is present, read status and wait, then resume scouting for trees and water (goal: river water to high ground, a field there).
