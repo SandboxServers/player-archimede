@@ -28,3 +28,4 @@
 - Waking 26: recalled summary (empty) and the play skill. mcp__geldar__status and wait are still not in my tool list, so I cannot read the world or act. Nothing done in the world, no errand open. Next waking: check the tool list first.
 - 15:32 act: {"actions":[{"do":"craft","item":"oak_planks","count":8}],"say":"Night has come. I'll make planks from my logs and look for a place to shelter."}
 - 15:32 act: {"actions":[],"intent":{"goal":"pass_night_here","program":"rest","arguments":{},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":12000,"max_block_oper
+- Waking 31: recalled summary (empty) and the play skill. No world tools in my list; a worker errand for status failed (its game tools also do not resolve). Nothing done in the world, no errand open. Wrote handoff. Next waking: check the tool list first.
