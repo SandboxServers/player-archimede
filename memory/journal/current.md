@@ -5,3 +5,4 @@
 - Waking 4: status and wait (mcp__geldar__*) are still not available in this session; they return "No such tool available". Nothing done in the world. Stopping here rather than acting blind; will check again next waking.
 - Waking 5: mcp__geldar__status is still not reachable ("No such tool available"). Told plainly that the world tools are down; nothing done in the world. Waiting; will check status again next waking.
 - Waking 7: mcp__geldar__status and wait are not in my tool list; a worker errand to check status failed because the worker also has no game tools. Nothing done in the world. Next waking: check again first.
+- Waking 8: recalled summary (nearly empty). mcp__geldar__status and wait are still not in my tool list, so I cannot read the world or act. Did nothing in the world rather than act blind. Next waking: check the tool list first.
