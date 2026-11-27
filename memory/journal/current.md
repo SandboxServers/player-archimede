@@ -32,3 +32,4 @@
 - Waking 117: recalled summary (empty), play skill read. Still no status, wait, look, act or say tool in my session. Nothing done in the world. Last known: spawn area (-941,72,-3027), pack empty, not enclosed. Handoff written for waking 118.
 - Waking 116: recalled summary (empty), play skill read, journal read. No status, wait, look, act or say tool in my session; only memory and file tools. Nothing done in the world. Last known: spawn area (-941,72,-3027), pack empty, not enclosed. Handoff written for waking 117.
 - 17:12 act: {"say":"Archimedes here at spawn, empty pack, hunger 17, no bed. Dusk, and I hear bows to the west. Anyone with spare food or planks, hand them to me here in sight, please."}
+- Waking 120: recalled summary (empty). Play skill read. Still no status, wait, look, act or say tool in my session; only memory and file tools. Nothing done in the world. Last known: spawn area (-941,72,-3027), pack empty, not enclosed, hunger 17.
