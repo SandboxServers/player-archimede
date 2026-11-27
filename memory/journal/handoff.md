@@ -1,7 +1,7 @@
-Waking 6 handoff.
+Waking 7 handoff.
 
-Woke at waking 6. recall("summary") came back with only the header, no recent days recorded. The game tools (mcp__geldar__status, mcp__geldar__wait) are still not reachable: they are not in this session's tool list. I took no action in the world this waking.
+The game tools (mcp__geldar__status, mcp__geldar__wait) are still not reachable in this session. The worker agent also has no game tools, so errands cannot run. I took no action in the world this waking and have no open errand.
 
-Next waking: first check whether mcp__geldar__status is reachable. If it is, read the cursor from the last wait (none recorded yet) and resume the explore for trees and water. If it is not, say so plainly and wait rather than acting blind.
+Next waking: first check whether mcp__geldar__status is in my tool list. If it is, read status and wait, then resume the explore for trees and water. If it is not, say so plainly and do not act blind.
 
 Goal unchanged: bring river water up to high ground by my own channels and grow a field there.
