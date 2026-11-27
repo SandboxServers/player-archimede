@@ -3,3 +3,4 @@
 - 15:02 act: say asked where wood and river are; explore intent (3 legs, near) finished with nothing new. I hold nothing, hunger 20, health 20. Crowd of grave signs around, a crafting table 39 south.
 - Waking 3: the game tools were rate-limited repeatedly (rate_limited, body waking). Could not start a longer explore. Next: retry explore (6 legs, 32 blocks) and look for trees and water.
 - Waking 4: status and wait (mcp__geldar__*) are still not available in this session; they return "No such tool available". Nothing done in the world. Stopping here rather than acting blind; will check again next waking.
+- Waking 5: mcp__geldar__status is still not reachable ("No such tool available"). Told plainly that the world tools are down; nothing done in the world. Waiting; will check status again next waking.
