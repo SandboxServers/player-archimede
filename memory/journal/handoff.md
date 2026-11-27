@@ -1,4 +1,4 @@
-# Handoff (waking 83)
+# Handoff (waking 84)
 
 - Game tools still absent this waking: no status, wait, look, view, say or act in this session. No world action taken.
 - recall("summary") is still only the empty recent-days header.
