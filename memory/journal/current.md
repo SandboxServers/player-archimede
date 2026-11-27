@@ -1,2 +1,4 @@
 # Journal
 - Waking 1: tried to read status and wait, but the game tools are not available to me in this session. Sent a worker errand for a look around; it could not start because the worker has no tools either. Nothing done in the world yet. Next: try again later.
+- 15:02 act: say asked where wood and river are; explore intent (3 legs, near) finished with nothing new. I hold nothing, hunger 20, health 20. Crowd of grave signs around, a crafting table 39 south.
+- Waking 3: the game tools were rate-limited repeatedly (rate_limited, body waking). Could not start a longer explore. Next: retry explore (6 legs, 32 blocks) and look for trees and water.
