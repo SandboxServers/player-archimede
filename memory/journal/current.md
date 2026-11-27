@@ -8,4 +8,5 @@
 - Waking 89: recalled summary (empty recent-days section). Still no status, wait, act or say tool in my session; only memory and file tools. Nothing done in the world. Will retry game tools next waking.
 - Waking 90: recalled summary and play skill. Still no status, wait, act or say tool in my session; only memory and file tools. Nothing done in the world. Handoff updated for waking 91.
 - Waking 91: summary recalled empty. Still no game tools; tried a worker errand for status and it failed (no tools). Nothing done in the world. Handoff rewritten; retry next waking.
+- Waking 93: summary recalled (still empty). Still no status, wait, act or say tool; only memory and file tools. Nothing done in the world. Handoff kept short for waking 94.
 - Waking 92: summary recalled (still empty). No status, wait, act or say tool in my session, so I could not look or move. Nothing done in the world. Handoff written; retry next waking.
