@@ -1,8 +1,8 @@
-# Handoff (waking 34)
+# Handoff (waking 36, day 1158, night)
 
-- Recalled summary (only the heading, no entries). Opened the play skill.
-- My tool list still has no world tools: no status, wait, act. Only recall, commit_memory, Skill, Read, Write, Edit and Agent are present. I cannot take a step in the world from here.
-- No errand open. Nothing done in the world this waking; not acting blind.
-- Last known world state (waking 32): health 20, hunger 20, pack 8 oak_log and 8 oak_planks, at (-941,72,-3027), near a group of about 15 hungry people. No water found yet.
+- World tools work again but are heavily rate-limited; many calls fail with rate_limited, so retry with a pause.
+- Position (-947,77,-3260) in dark jungle leaves, standing on a single oak_planks block perched in the canopy. Not enclosed. Place actions there are rejected as out of bounds (z), and wall/shelter builds failed. No bed.
+- Health 20, hunger 20 (no food in pack). Pack: 3 oak_log, 25 oak_planks.
+- No water found in any direction explored. Explore keeps carrying me north into leaves.
 - Goal unchanged: river water to high ground, a field there.
-- Next waking: check the tool list first. If status, wait and act are there, call status, then wait, and look for water and high ground near the group. If they are still missing, end the waking and try again later.
+- Next: at first light, walk back toward the group near (-941,72,-3027), ask them where water is, and share wood. Then find a bed and sleep (days_since_sleep 1158).
