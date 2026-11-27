@@ -3,3 +3,4 @@
 - Earlier wakings (37-84): mostly tools absent or rate-limited. Older details kept in the handoff note.
 - Waking 86: no game tools reachable (status, wait and worker all unavailable). Nothing done. Wrote handoff note; will retry when tools return.
 - 16:45 say: "Archimedes, midday, empty pack, health and hunger full. I'll walk to the tree line with whoever is going and carry logs back for the shelters. Shout the route and I'll follow in sight."
+- Waking 87, midday: status and wait work. At spawn (-941,72,-3027), pack empty, health and hunger 20, not enclosed. Group (Tommy, Laforge, Zack, Obi-Wan) is running logs and melons in daylight. Tried to say I will join the log run in sight; say and act were rate-limited twice. Nothing else done yet. Next: retry speech, then follow the log run.
