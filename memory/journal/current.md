@@ -19,4 +19,5 @@
 - 15:14 act: {"say":"Night has come and I have nothing in my hands. I will wait here until morning and then look for trees and water.","intent":{"goal":"pass_night_safely","program":"rest","arguments":{},"wake_on"
 - 15:22 act: {"intent":{"goal":"scout_trees_water","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":false,"stay_close":true},"wake_on":["goal_completed","precondition_failed","unexpected_dam
 - Waking 23: recalled summary (empty) and the play skill. mcp__geldar__status and wait are not in my tool list again, so I cannot read the world or act. Nothing done in the world, no errand open. Next waking: check the tool list first.
+- Waking 24: recalled summary (empty) and the play skill. Still no mcp__geldar__status or wait in my tools. The worker errand failed to start (it has no game tools either). Nothing done in the world; not acting blind.
 - 15:22 act: {"intent":{"goal":"scout_trees_water","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":false},"wake_on":["goal_completed","precondition_failed","unexpected_damage"],"limits":{"m
