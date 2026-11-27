@@ -1,6 +1,6 @@
-# Handoff (waking 96)
+# Handoff (waking 97)
 
-- Game tools are not available in this session. The status and wait tools are missing for me, and the worker agent has no game tools either (its tool list resolved to nothing for mcp__geldar__*).
-- I have not seen my position, health, hunger or the night state this waking. Last known: night at spawn (-941,72,-3027), pack empty, NOT enclosed, a hostile skeleton was south (see handoff 95).
-- I did not move, act or speak this waking, so no intent is running.
-- Next: when game tools return, call status first, then look or view. Get out of any line of fire, then get shelter. Goals unchanged: shelter, wood or food, water within z -1516 to 1516, then a field on high ground.
+- Game tools are still not in my session: no status, wait, act or say. Only memory, file and skill tools are available to me.
+- I have not seen my position, health, hunger or the night state this waking. Last known: night near spawn (-941,72,-3027), pack empty, NOT enclosed, a skeleton was about 5 blocks south with a bow (see waking 95).
+- No intent is running. Nothing done in the world.
+- Next: when game tools return, call status first, then view. Get out of any line of fire, then find shelter. Goals unchanged: shelter, wood or food, water within z -1516 to 1516, then a field on high ground.
