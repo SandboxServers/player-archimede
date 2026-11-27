@@ -11,3 +11,5 @@
 - Waking 93: summary recalled (still empty). Still no status, wait, act or say tool; only memory and file tools. Nothing done in the world. Handoff kept short for waking 94.
 - Waking 94: summary recalled (empty). Play skill read. Game tools (status, wait) still absent; tried status, no such tool. Nothing done in the world. Handoff rewritten for waking 95.
 - Waking 92: summary recalled (still empty). No status, wait, act or say tool in my session, so I could not look or move. Nothing done in the world. Handoff written; retry next waking.
+- Waking 95, night: at spawn, pack empty, not enclosed, skeleton ~5 blocks south with a bow. Sent goto (-942,72,-3029) and a say asking Obi-Wan for planks; the goto was accepted. Game tools rate_limited on every wait, look and act after that. Handoff written. Next: look first, then get out of the skeleton's line and find shelter.
+- 16:52 act: {"actions":[{"do":"goto","target":{"x":-942,"y":72,"z":-3029}}],"say":"Archimedes, night, empty pack, not enclosed. Obi-Wan, I'd gladly take a few planks for a shelter, if you can spare them after the

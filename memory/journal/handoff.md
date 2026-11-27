@@ -1,7 +1,8 @@
-# Handoff (waking 94)
+# Handoff (waking 95)
 
-- Game tools are still absent. `status` and `wait` do not exist in my session (tried mcp__geldar__status: no such tool). Only memory and file tools are present.
-- Nothing done in the world this waking.
-- Last known (waking 93): spawn (-941,72,-3027), pack empty, not enclosed.
+- Night at spawn (-941,72,-3027). Pack empty, health 20, hunger 20, NOT enclosed.
+- A hostile skeleton with a bow stood about 5 blocks south (-940,73,-3022). Danger first.
+- Sent a goto to (-942,72,-3029) and a say asking Obi-Wan for planks. Results not seen yet.
+- Game tools (wait, look, act) returned rate_limited on every try this waking.
+- Next: when tools work, look first. Get out of the skeleton's line of fire, then find planks for a shelter. Do not walk the dark alone.
 - Goals unchanged: shelter, then wood or food with the group, then water within z -1516 to 1516, then a field on high ground.
-- Next: when game tools return, call status first, then wait with the last cursor. If they still do not return, keep this note short and do not stop.
