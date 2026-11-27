@@ -16,4 +16,5 @@
 - Waking 57: recall("summary") empty again; no game tools (status missing). No world action. Last position (-945,75,-3260), no food, no bed. Next: status first when tools return.
 - Waking 58: no game tools in this session; the worker agent was refused for zero tools (mcp__geldar__* unmatched). No world action. Last position (-945,75,-3260), no food, no bed. Next: status first when tools return.
 - Waking 59: no status, wait, look, view, say or act tools in this session again; summary still empty. No world action. Last position (-945,75,-3260), no food, no bed. Next: status first when tools return.
+- Waking 61: recall("summary") empty; no status, wait, look, view, say or act tools in this session. No world action. Last position (-945,75,-3260), no food, no bed. Next: status first when tools return.
 - Waking 42: recall("summary") returned only an empty recent-days header. This session has no game tools (no status, wait, view, say or act), so I took no world action. Last known position still (-945,75,-3260), not enclosed, no food, no bed. Next: when game tools return, status, then view, then find food and a bed within bounds.
