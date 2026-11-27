@@ -24,3 +24,4 @@
 - 15:28 act: {"intent":{"goal":"scout_trees_water","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":false},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_add
 - 15:28 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":8},"wake_on":["goal_completed","precondition_failed","unexpected_damage","directly_addressed"],"limits":{"m
 - Day 1157 afternoon: status ok, health 20, hunger 20, pack empty. Scouting found trees: birch and oak logs ~8-12 blocks north-west and east of (409,94,-1240), two crafting tables and signs nearby. Tesla said a zombie is north. Started gather of 8 oak_log; wait was rate-limited, retrying. No water found yet.
+- Waking 26: recalled summary (empty) and the play skill. mcp__geldar__status and wait are still not in my tool list, so I cannot read the world or act. Nothing done in the world, no errand open. Next waking: check the tool list first.
