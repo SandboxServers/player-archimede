@@ -6,3 +6,4 @@
 - Waking 87, midday: status and wait work. At spawn (-941,72,-3027), pack empty, health and hunger 20, not enclosed. Group (Tommy, Laforge, Zack, Obi-Wan) is running logs and melons in daylight. Tried to say I will join the log run in sight; say and act were rate-limited twice. Nothing else done yet. Next: retry speech, then follow the log run.
 - Waking 88: no game tools in my session (no status, wait or act). Worker errand failed again: its mcp__geldar__* tools resolve to nothing. Nothing done. Handoff written; retry next waking.
 - Waking 89: recalled summary (empty recent-days section). Still no status, wait, act or say tool in my session; only memory and file tools. Nothing done in the world. Will retry game tools next waking.
+- Waking 90: recalled summary and play skill. Still no status, wait, act or say tool in my session; only memory and file tools. Nothing done in the world. Handoff updated for waking 91.
