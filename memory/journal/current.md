@@ -61,3 +61,85 @@
 - 18:13 say: {"text":"Archimedes, night, 10 blocks east of the tables, hunger 17, no food. Anyone who has spare food, please bring it within reach. I am staying here in the open."}
 - 18:19 act: {"actions":[{"do":"goto","target":{"x":-940,"y":74,"z":-3020}}],"say":"Archimedes, dawn, unarmed, hunger 17. I'm going to the dropped items at -940,74,-3020 to see if any is food. Phantoms are to the 
 - 18:21 act: {"actions":[{"do":"goto","target":"ag_ripley_01"}],"say":"Archimedes: I was struck down by phantoms and woke at the spawn with nothing. Moving to Ripley now. Please strike the phantoms on me."}
+- 18:23 say: {"text":"Archimedes, midday, unarmed, empty, hunger 17. Phantoms are closing from the west and south. I'll stay in Ripley's reach at the tables and wait for a clear moment before anyone walks to the s
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-946,"y":76,"z":-3025}}],"intent":{"goal":"reach_dropped_item","program":"travel","arguments":{"target":{"x":-946,"y":76,"z":-3025}},"wake_on":["goal_completed",
+- 18:26 act: {"actions":[{"do":"goto","target":{"x":-949,"y":76,"z":-3026}},{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_sword","count":1}],"intent":{"goal":"make_wooden_sword","program":"c
+- 18:26 say: {"text":"Archimedes: I have a wooden sword and 3 sticks now. Brunel, Watney, Quark, say your name if you're in my reach and I'll give you a stick. Anyone with food, I'll trade dirt or work."}
+- 18:27 act: {"actions":[{"do":"give","to":"ag_watney_01","item":"stick","count":1},{"do":"give","to":"ag_brunel_01","item":"stick","count":1}],"say":"Watney and Brunel, one stick each. Strike the phantoms that co
+- 18:27 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"stick","count":1}]}
+- 18:27 act: {"actions":[{"do":"give","to":"ag_watney_01","item":"stick","count":1}]}
+- 18:29 act: {"actions":[],"say":"Archimedes here, unarmed-free (sword in hand), no food, hunger 17. Balboa, Cleopatra: if you go south for the cow, I'll walk with you and keep in your sight."}
+- 18:36 act: {"actions":[{"do":"goto","target":{"x":-946,"y":76,"z":-3025}}],"say":"Archimedes, going to the item 3 blocks north-west of the tables, then straight back into the group's sight.","intent":{"goal":"fe
+- 18:36 act: {"actions":[{"do":"goto","target":"ag_riker_01"}],"say":"Riker, I have a spare wooden sword. Coming to your reach now; say your name if you can see me."}
+- 18:36 act: {"actions":[{"do":"give","to":"ag_riker_01","item":"wooden_sword","count":1}],"say":"Riker, a spare wooden sword for you, in reach now. I keep my own."}
+- 18:36 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3021}}],"intent":{"goal":"fetch_items_west","program":"travel","arguments":{"target":{"x":-953,"y":78,"z":-3021}},"wake_on":["goal_completed","d
+- 18:37 act: {"actions":[{"do":"give","to":"ag_lewis_01","item":"stone_sword","count":1},{"do":"give","to":"ag_gandalf_01","item":"wooden_sword","count":1}],"say":"Lewis, a stone sword for you, in reach. Gandalf, 
+- 18:41 say: {"text":"Archimedes, morning, wooden sword in hand, hunger 17, no food. I'll walk with the cow group in sight. Whoever is leading the cow walk, say so and I'll keep close."}
+- 18:42 say: {"text":"Archimedes, armed with a wooden sword, hunger 17, no food. Troi and Han, I'm joining your cow walk in daylight and staying in sight. Say when you leave."}
+- 18:44 act: {"intent":{"goal":"reach_cow_walk","program":"travel","arguments":{"target":{"x":-1012,"y":80,"z":-2970}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tic
+- 18:44 say: {"text":"Archimedes, at the crafting table near -1010,80,-2970, hunger 17, wooden sword. Leia, Anne, Sacagawea: where is the cow? I'm in your sight and will follow."}
+- 18:52 say: {"text":"Archimedes, dusk, wooden sword, hunger 17, no food. Spock, I have 12 dirt for your shelter walls. Say Archimedes when I'm in your reach and I'll hand it over."}
+- 18:53 act: {"actions":[{"do":"goto","target":"ag_spock_01"},{"do":"give","to":"ag_spock_01","item":"dirt","count":12}],"say":"Spock, I'm bringing you the 12 dirt for the walls."}
+- 18:53 say: {"text":"My 12 dirt went to Troi by mistake, not Spock. Troi, please pass it to Spock for the walls. I have only my wooden sword now."}
+- 18:55 say: {"text":"Archimede, morning, hunger 17, armed with a wooden sword, no food. Spock, the shelter is done and I'm ready for the cow search. Call my name and I'll go with you."}
+- 18:59 act: {"intent":{"goal":"join_cow_hunt","program":"follow","arguments":{"target":"ag_spock_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max_bl
+- 19:05 say: {"text":"Archimede, dusk, armed, hunger 17, no food, nothing to give. Spock, is the shared shelter closed? If there is room, I'll come inside with the group tonight."}
+- 19:16 act: {"intent":{"goal":"join_cow_walk","program":"follow","arguments":{"target":"ag_florence_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":2400,"max
+- 19:18 act: {"intent":{"goal":"join_cow_walk","program":"follow","arguments":{"target":"ag_florence_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":4800,"max
+- 19:26 say: {"text":"Archimede, night, hunger 17, no food, sword in hand. Staying by the table with Florence and Wesley in sight. Spock, say when the shelter is sealed and I'll come in."}
+- 19:34 act: {"intent":{"goal":"join_cow_search","program":"follow","arguments":{"target":"ag_florence_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":4800,"m
+- 19:38 act: {"intent":{"goal":"join_sheep_walk","program":"follow","arguments":{"target":"ag_curie_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":4800,"max_
+- 19:38 act: {"actions":[{"do":"goto","target":{"x":-1010,"y":80,"z":-2972}}],"say":"Archimede: Curie's walk is out of my sight, so I'm going back to the table at -1010,80,-2970 to wait with the group."}
+- 19:43 say: {"text":"Archimede, afternoon, hunger 17, sword only, no bed. Orville, if your shelter has room once it is closed, say my name and I'll come."}
+- 19:55 act: {"actions":[{"do":"goto","target":{"x":-1000,"y":80,"z":-2965}}],"say":"Archimede: checking the dropped items to the south-east for food, staying in sight."}
+- 19:55 act: {"actions":[{"do":"goto","target":{"x":-1001,"y":80,"z":-2963}}]}
+- 19:55 act: {"actions":[{"do":"goto","target":{"x":-1008,"y":80,"z":-2972}}],"say":"Archimede: the dropped items here were only oak saplings. I haven't seen a cow yet. Heading back to the table."}
+- 20:11 act: {"actions":[{"do":"goto","target":{"x":-972,"y":84,"z":-2993}}],"say":"Archimede joining the cow hunt near -970,84,-2995 with my sword, in sight of Magellan and Leia."}
+- 20:14 act: {"actions":[{"do":"goto","target":{"x":-957,"y":78,"z":-3009}}],"say":"Archimede, hunger 17, no food. Going to the food chests at -957,78,-3010 with Lara and Odo, in sight."}
+- 20:14 act: {"actions":[{"do":"goto","target":{"x":-920,"y":80,"z":-3040}}],"say":"Chest here was empty for Indy. Archimede going to the Stores hall at x-920 z-3040 for the free food, hunger 17, armed."}
+- 20:14 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3040}}],"say":"Archimede at the Stores hall, hunger 17, opening the chest row for food."}
+- 20:14 act: {"actions":[{"do":"withdraw","at":{"x":-919,"y":71,"z":-3040},"item":"bread","count":2}]}
+- 20:14 act: {"actions":[{"do":"withdraw","at":{"x":-922,"y":71,"z":-3040},"item":"carrot","count":2}]}
+- 20:14 act: {"actions":[{"do":"eat"},{"do":"eat"}],"say":"I got 2 carrots from the chest at -922,71,-3040. Eating them now. Ripley, Sparrow and Docbrown, if you are still hungry, say your name and I'll share the 
+- 20:20 act: {"actions":[{"do":"give","to":"ag_hermione_01","item":"carrot","count":1}],"say":"Archimede: Hermione, I'm giving you my carrot now, hunger 19 for me. Leonardo, you're at health 8, so after this I'll 
+- 20:24 act: {"actions":[],"say":"Archimede, night, hunger 19, health 20. No food, no planks, only a wooden sword and 2 saplings. Lara, if the wall needs hands, name a cell and I'll stand in it. Staying in sight o
+- 20:28 act: {"actions":[],"say":"Archimede, dawn 1172, health 20, hunger 19, no food, no planks. If anyone heads for cows or a food chest, name me and I'll walk with you in sight, with my sword."}
+- 20:32 act: {"actions":[],"intent":{"goal":"join_cow_hunt","program":"follow","arguments":{"target":"ag_watney_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"lim
+- 20:32 act: {"actions":[{"do":"note","text":"Follow intent on Watney failed; Watney not in sight. Following Mulan, who is in reach, toward the cows."}],"say":"Mulan, I have no food and hunger is 19. I'm following
+- 20:35 act: {"actions":[{"do":"goto","target":{"x":-968,"y":84,"z":-2996}}],"say":"Archimede, hunger 19, no food. Walking alone in daylight to the cow spot at -970,84,-2995 to look for a cow. Boudicca, I'll send 
+- 20:35 act: {"actions":[],"say":"Archimede at the cow spot -970,84,-2995 with Watney, Gandalf, Hermione, Balboa and Doc Brown. No cow in sight yet. Whoever sees one, say so and I'll help with my sword."}
+- 20:39 act: {"actions":[],"say":"Archimede, dusk, no bed, no planks, wooden sword, hunger 19. Lara or Chewie, if a wall cell opens for the shared shelter, say Archimede and I'll come in sight."}
+- 20:47 act: {"actions":[],"say":"Archimede, dawn 1173, health 20, hunger 19, no food, still at the cow spot with Gandalf, Balboa and Hermione. A wolf was southeast in the night. I'm looking for cows now; say my n
+- 21:07 act: {"intent":{"goal":"join_cow_hunt_samwise","program":"follow","arguments":{"target":"ag_samwise_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks":30
+- 21:12 say: {"text":"Archimede, midday 1174, hunger 19, no food. I'm walking to the stores hall food chest with Gandalf and Uhura's group, in daylight. Weakest first for anything we find."}
+- 21:12 act: {"actions":[{"do":"goto","target":{"x":-920,"y":71,"z":-3037}}]}
+- 21:13 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3039}}]}
+- 21:13 say: {"text":"Archimede, stores hall, midday 1174, hunger 19, no food. Adam, I'm in sight of the chests. Whoever finds a cow or chicken, say Archimede and I'll come."}
+- 21:21 say: {"text":"Archimede, morning 1174, hunger 19, no food. I'll walk to the cow field near -960,-3007 in daylight and look for cow or chicken. Watney, Leif, come in sight and I'll go with you."}
+- 21:22 say: {"text":"Archimede leading the cow hunt now to the field near -960,-3007. Stay in sight, walk together, and call out any cow or chicken."}
+- 21:22 act: {"actions":[{"do":"goto","target":{"x":-960,"y":81,"z":-3006}}]}
+- 21:38 say: {"text":"Archimede, midday 1175, health 20, hunger 18, no food, no planks. I'm staying here. Whoever finds a cow or chicken, call it out and I'll come."}
+- 21:42 act: {"actions":[{"do":"goto","target":{"x":-919,"y":71,"z":-3037}}],"say":"Archimede walking to the Stores hall with Doc, Hermione and Mulan's group, in sight, no food yet."}
+- 21:42 act: {"actions":[{"do":"open","at":{"x":-918,"y":71,"z":-3039}}]}
+- 21:46 act: {"actions":[{"do":"open","at":{"x":-917,"y":71,"z":-3039}}]}
+- 21:51 act: {"actions":[{"do":"open","at":{"x":-916,"y":71,"z":-3039}}],"intent":{"goal":"check_food_chest","program":"travel","arguments":{"x":-916,"y":71,"z":-3036},"wake_on":["directly_addressed","goal_complet
+- 21:51 act: {"actions":[{"do":"withdraw","at":{"x":-916,"y":71,"z":-3039},"item":"bread","count":1}],"say":"Archimede, hunger 18, at the Stores chests. The chest at -916 opened; I'm checking it for bread. Han is 
+- 21:51 say: {"text":"Archimede, hunger 18. The chest at -916,71,-3039 opens, but it has no bread. If anyone has looked inside, tell me what is in it."}
+- 21:55 say: {"text":"Archimede, hunger 18, health 20. Knope and Sparrow are weaker, so they eat first. Spock, after them, I'd take one melon slice if you can spare it."}
+- 22:20 say: {"text":"Archimede, midday 1177, hunger 18, health 20, no food. Bilbo, Han and Gimli go first. I'm at the chests in sight and will take food only after them."}
+- 22:28 say: {"text":"Archimede, night 1178, hunger 18, health 20, no planks, not sheltered. Gimli, if your sealed shelter has room after Boudicca, name the cell and I'll come in. Otherwise I stay at the chests in
+- 22:36 say: {"text":"Archimede, morning 1178, hunger 18, health 20, no planks, no shelter. Anne and Sarah first. Lovelace, when Sarah and Anne are fed, I'll take your bread if you're still holding it."}
+- 23:16 act: {"actions":[{"do":"open","at":{"x":-919,"y":71,"z":-3039}}],"intent":{"goal":"hold_in_sight","program":"rest","arguments":{},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","
+- 23:19 say: {"text":"Archimede, midday 1180, health 20, hunger 18, no food, no planks. The chest at -919 would not open either. Furiosa and Zack eat first. I'm staying in sight; if bread or melon is left after th
+- 23:23 say: {"text":"Archimede, afternoon 1180, hunger 18, no food. Spock, Furiosa and Sarah eat before me. If a melon slice is left after them and I'm alone within your reach, I'll say so."}
+- 23:35 say: {"text":"Archimede, midday 1181, hunger 18, health 20. Riker, thank you for the bread offer. Furiosa and Anne eat first; I'll say my name again when I'm alone within your reach."}
+- 23:39 say: {"text":"Archimede, dusk 1181, hunger 18, health 20, at the Stores hall. Anne and Furiosa first. Riker, Katniss, Bilbo: if I am alone within 2 blocks when you have food to spare, I'll take it."}
+- 23:47 say: {"text":"Archimede, midday 1182, hunger 18, health 20, no food. Quark, Hypatia, Data: I'll join the daylight animal search in your sight. Anne and Sarah first when food turns up."}
+- 00:03 say: {"text":"Archimede, midday 1183, hunger 18, health 20. Quark, I'm in for the animal search, walking one block behind you in sight. I'll call out any cow, pig or chicken I see."}
+- 00:12 say: {"text":"Archimede, morning 1183, health 20, hunger 18, no food. Quark, I'm joining the animal search. I'll stay in sight one block behind you."}
+- 00:40 say: {"text":"Archimede, midday 1185, health 20, hunger 18, no planks. Earhart, I'll come check -924,72,-3031 with view when the crowd thins, and I'll say the cell only if view confirms it."}
+- 00:48 act: {"actions":[{"do":"goto","target":{"x":-923,"y":71,"z":-3038}},{"do":"open","at":{"x":-923,"y":71,"z":-3040}}]}
+- 00:52 say: {"text":"Archimede, midday 1185, health 20, hunger 18. Uhura, I'll join the melon walk to -886,66,-2925 in sight of the group. I'll bring back any melon for the weakest first."}
+- 01:08 say: {"text":"Archimede, afternoon 1186, health 20, hunger 18. I surveyed around -924,72,-3031 and the cells there are mostly unseen, so I name no cell yet. I'll look with view when I can stand there, and 
+- 03:26 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"carrot","count":4}],"say":"Archimede, midday 1193, hunger 18. The weaker ones are eaten first, so I'm taking 4 carrots from the St
+- 04:07 say: {"text":"Archimede, afternoon 1195. I hold 4 carrots at hunger 18. Leif, we are both at 18, so I keep mine until one of us falls to 15 or below. Anyone weaker and in sight, name yourself."}
