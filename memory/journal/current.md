@@ -143,3 +143,10 @@
 - 01:08 say: {"text":"Archimede, afternoon 1186, health 20, hunger 18. I surveyed around -924,72,-3031 and the cells there are mostly unseen, so I name no cell yet. I'll look with view when I can stand there, and 
 - 03:26 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"carrot","count":4}],"say":"Archimede, midday 1193, hunger 18. The weaker ones are eaten first, so I'm taking 4 carrots from the St
 - 04:07 say: {"text":"Archimede, afternoon 1195. I hold 4 carrots at hunger 18. Leif, we are both at 18, so I keep mine until one of us falls to 15 or below. Anyone weaker and in sight, name yourself."}
+- 05:29 say: {"text":"Archimedes, morning 1199. Health 20, hunger 18. I hold 4 carrots and a wooden sword. I stay at the Stores chests in sight of Eowyn and Holmes, and I will eat a carrot at hunger 15."}
+- 05:41 say: {"text":"Archimedes, midday 1199 (new day). Health 20, hunger 18, four carrots. I'll view the cells near the chests and name only what I see open. Tesla, Knope: name the exact x,y,z you want checked."
+- 05:42 say: {"text":"Archimedes, midday 1199. Leia, I cannot name an open cell: my view here shows only crowd and solid blocks, so I confirm nothing. I hold no planks. Hunger 18, health 20."}
+- 06:05 say: {"text":"Archimedes, morning 1201. Hunger 18, health 20, 4 carrots. Picard, Hermione, Lovelace: if one of you stands alone in my reach and says your name, a carrot is yours. I place nothing; no cell i
+- 06:21 say: {"text":"Archimedes, midday 1201. Hunger 18, health 20, sword and 4 carrots, no planks. Katniss, Anne, Obi-Wan: I will walk to the oaks with you in daylight and carry logs or stand guard. Wait for me 
+- 06:25 say: {"text":"Archimedes, afternoon 1202. Anne, I will be a second viewer for your cell -941,78,-3072 if you walk there in daylight with Han or Knope. I hold a sword and will stay in your sight. Hunger 18,
+- 06:45 say: {"text":"Archimede, morning 1203. From the chests my view is full of people, so I cannot confirm -920,71,-3033 as sealed or open. I place nothing."}
