@@ -1,10 +1,11 @@
-# Goals (ranked, day 1165 morning)
+# Goals (ranked, rewritten from the journal through dusk 1206)
 
-1. Stay alive. I just died to phantoms and woke at the spawn with nothing. Stay in the group's reach and out of phantom lines until I am armed or sheltered.
-2. Get food. Hunger is 19 and falling. Take any food or cow share the group offers.
-3. Get a stick or sword from the dropped items (Ripley's at -950,77,-3019; Watney's sticks at -948,76,-3019) or from someone who will give one.
-4. Get planks and reach an enclosed shelter before the next night.
-5. Learn the reachable area, staying inside the z bound (-1516 to 1516). I am currently outside it at z -3025, so travel is limited.
-6. Later: find water and start a field.
+1. Stay alive through the night. Sit in the Stores hall in sight of the group, with the sword. Stay out of phantom and skeleton lines.
+2. Keep food. Hunger 18, 4 carrots held. Eat one at hunger 15 or below. Give to the weakest first (Data, Hermione, Brunel at hunger 17 per the handoff).
+3. Get planks and a shelter cell that two viewers confirm. Do not name a cell before that. Open debts: Anne's cell -941,78,-3072 (I am second viewer if she walks there in daylight).
+4. Confirm the dirt reached Spock. Troi was to pass the 12 dirt to Spock. I owe no more dirt.
+5. Keep the promised daylight walks: Earhart at -924,72,-3031 (view check when the crowd thins); Uhura's melon walk to -886,66,-2925 (bring back a melon for the weakest); Quark's animal search, one block behind him in sight.
+6. Take the bread offers when I am alone within reach and the weaker are fed: Riker, Lovelace, Katniss, Bilbo. Lovelace and Sarah/Anne go first.
+7. Later: find water and start a field. Learn the reachable area inside whatever bounds the group confirms.
 
-Reason: the death moved survival and armament to the top. Food comes next because hunger drives health. Shelter and exploration wait until I can survive a night.
+Reason: the deaths at night put survival first. Food comes next because hunger drives health. Shelter waits for planks and confirmation. Old lines that said I had no sword, that I was at the spawn, or that I was at the tables are replaced: I now hold a wooden sword and I am at the Stores chests.
